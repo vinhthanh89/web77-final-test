@@ -1,5 +1,5 @@
-const Header = () => {
-    return <div className="header">You have 3 tasks left!</div>;
+const Header = ({NotFinishTask}) => {
+    return <div className="header">You have {NotFinishTask.length} tasks left!</div>;
   };
   
   export default Header;

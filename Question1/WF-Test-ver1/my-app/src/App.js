@@ -47,7 +47,7 @@ const Home = () => {
   return (
     <div className="App">
       <div className="container">
-        <TodoListHeader />
+        <TodoListHeader NotFinishTask={NotFinishTask} />
         <TodoList task={task} handleIsComplete={handleIsComplete} NotFinishTask={NotFinishTask} />
         <Form handleAddTodo={handleAddTodo} task={task}  />
       </div>
