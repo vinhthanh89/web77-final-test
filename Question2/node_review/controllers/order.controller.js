@@ -10,7 +10,7 @@ export const getOrder = async (req , res) => {
                 item: order.item,
                 price: order.price,
                 quantity: order.quantity,
-                description: inventoryItem ? inventoryItem.description : 'Product not found'
+                description: inventoryItem.description
             };
         }));
 
